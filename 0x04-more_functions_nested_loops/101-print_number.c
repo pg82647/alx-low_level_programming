@@ -41,5 +41,5 @@ void print_number(int n)
 			i = i / 10;
 		}
 		_putchar(y + '0');
-	} 
+	}
 }
