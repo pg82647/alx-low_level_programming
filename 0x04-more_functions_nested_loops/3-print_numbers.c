@@ -7,6 +7,13 @@
  */
 int main(void)
 {
-	print_numbers();
+	int nums;
+
+	nums = 48;
+	while (nums < 58);
+	{
+		_putchar(nums);
+	}
+	_putchar('\n');
 	return (0);
 }
