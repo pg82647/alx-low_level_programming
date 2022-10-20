@@ -1,21 +1,19 @@
 #include "main.h"
-
 /**
- * print_most_numbers - prints numbers 0 to 9 followed by new line character
- *			skip 2 and 4
- *
+ * print_most_numbers - check the code for Holberton School students.
+ * Return: Always 0.
  */
-
 void print_most_numbers(void)
 {
-	int i;
+	char c = '0';
 
-	for (i = '0'; i <= '9'; i++)
+	while (c <= '9')
 	{
-		if (i != '2' && i != '4')
+		if (c != '2' && c != '4')
 		{
-			_putchar(i);
+			_putchar(c);
 		}
+	c++;
 	}
-	_putchar('\n');
+_putchar('\n');
 }
