@@ -36,4 +36,5 @@ char *_strstr(char *haystack, char *needle)
 	} while (haystack[i] != '\0');
 
 	return (0);
+
 }
